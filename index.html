@@ -1,0 +1,133 @@
+<!DOCTYPE html>
+<head>
+    
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Noto+Sans:ital,wght@0,200;0,300;0,400;0,600;0,700;1,300;1,400&display=swap" rel="stylesheet">
+    <link rel="stylesheet" type="text/css" href="style.css">
+    <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.15.4/css/all.css" integrity="sha384-DyZ88mC6Up2uqS4h/KRgHuoeGwBcD4Ng9SiP4dIRy0EXTlnuz47vAwmeGwVChigm" crossorigin="anonymous"/>
+    <!-- CSS only -->
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.2.0-beta1/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-0evHe/X+R7YkIZDRvuzKMRqM+OrBnVFBL6DOitfPri4tjfHxaWutUpFmBp4vmVor" crossorigin="anonymous">
+    <title>Facebook sing up page</title>
+
+</head>
+<body style="background-color:  rgb(226, 226, 226);">
+<div class="bg-primary m-auto " style="width: 780px;">
+  <form class="row row-cols-md-auto g-3 justify-content-centre ">
+    <div class="col-md-4" style="margin-left: 45px;">
+      <label for="Email" class="form-label text-light ms-5">Email or Phone</label>
+      <div class="input">
+        <input type="email" type="number"  class="form-control ms-5" id="Email" aria-describedby="em">
+      </div>
+    </div>
+
+    <div class="col-md-4">
+      <label for="Password" class="form-label text-light ms-5">Password</label>
+      <div class="input">
+        <input type="password" class="form-control mx-5" id="Password">
+      </div>
+    </div>
+
+    <div class="col-12" style="margin-top: 48px; margin-left: 50px;">
+      <button type="submit" class="btn btn-primary border border-dark border-1 " >Log In</button>
+    </div>
+    
+  </form>
+  <div id="em" class="form-text text-light justify-content-centre" style="margin-left: 300px; padding-bottom: 10px;">Forgot account?</div>
+</div> 
+
+<div class="m-auto " style="width: 780px; background-color: rgb(226, 226, 226);">
+  <div class="text mt-4" style="margin-left: 45px; padding-bottom: 10px;">
+    <h3>Sign up</h3>
+    <p class="display-7">It's free and always will be.</p>
+  </div>
+
+</div>
+<div class="m-auto " style="width: 780px; background-color: rgb(226, 226, 226);">
+  <form class="row row-cols-md-auto g-3 justify-content-centre ">
+      <div class="col-md-5" style="margin-left: 45px;">
+        <input type="text" class="form-control" id="Fname" placeholder="First Name">
+      </div>
+      <div class="col-md-5">
+        <input type="text" class="form-control" id="Lname" placeholder="Last Name">
+      </div>
+      <div class="col-lg-10" style="margin-left: 45px;">
+        <input type="email" type="number" class="form-control" id="Phone" placeholder="Mobile number or email">
+      </div>
+      <div class="col-lg-10" style="margin-left: 45px;">
+        <input type="password" class="form-control" id="pwd" placeholder="New password">
+      </div>
+      
+      <div class="col-sm-2 pb-3" style="margin-left: 45px;">
+        <label for="Birtday" class="form-label h6" style="padding-right: 700px;">Birthday</label>
+        <select id="bdate" class="inline-form-select">
+          <option selected>Date</option>
+          <option>1</option><option>2</option><option>3</option><option>4</option><option>5</option>
+          <option>6</option><option>7</option><option>8</option><option>9</option><option>10</option>
+          <option>11</option><option>12</option><option>13</option><option>14</option><option>15</option>
+          <option>16</option><option>17</option><option>19</option><option>20</option>
+          <option>21</option><option>22</option><option>23</option><option>24</option><option>25</option>
+          <option>26</option><option>27</option><option>28</option><option>29</option><option>30</option>
+          <option>31</option>
+
+
+        </select>
+
+        <select id="bmonth" class="inline-form-select">
+          <option selected>Month</option>
+          <option>Jan</option><option>Feb</option><option>Mar</option><option>April</option><option>May</option>
+          <option>June</option><option>July</option><option>Aug</option><option>Sept</option><option>Oct</option>
+          <option>Nov</option><option>Dec</option>
+        </select>
+
+        <select id="byear" class="inline-form-select">
+          <option selected>Year</option>
+
+          <option>1994</option><option>1995</option><option>1996</option><option>1997</option><option>1998</option>
+          <option>1999</option><option>2000</option><option>2001</option><option>2002</option><option>2003</option>
+          <option>2004</option><option>2005</option><option>2006</option><option>2007</option><option>2008</option>
+          <option>2009</option><option>2010</option><option>2011</option><option>2012</option>
+          <option>2013</option><option>2014</option><option>2015
+
+
+        </select>
+        <i class="fas fa-question-circle"></i>
+      </div>
+
+      <div class="col-sm-2 pb-3" style="margin-left: 45px;">
+        <label for="Gender" class="form-label h6" style="padding-right: 700px;">Gender</label>
+        <div class="form-check form-check-inline">
+          <input class="form-check-input" type="radio" name="Gender" id="1" value="1">
+          <label class="form-check-label" for="1">Male</label>
+        </div>
+        <div class="form-check form-check-inline">
+          <input class="form-check-input" type="radio" name="Gender" id="2" value="2">
+          <label class="form-check-label" for="2">Female</label>
+        </div>
+        <div class="form-check form-check-inline">
+          <input class="form-check-input" type="radio" name="Gender" id="3" value="3">
+          <label class="form-check-label" for="3">Custom</label>
+        </div>
+        <i class="fas fa-question-circle"></i>
+      </div>
+
+      <div class="col-sm-2 pb-3" style="margin-left: 45px; width: 60%;">
+        <p class="diplay-7">By clicking Sign Up, you agree to our <a href="#" class="text-decoration-none">Terms</a> and that you have read our <a href="#" class="text-decoration-none">Data policy</a>, including our <a href="#" class="text-decoration-none">Cookie Use</a> .</p>
+      </div>
+
+      <div class="col-lg-10 pb-3" style="margin-left: 45px;">
+        <button type="submit" class="btn btn-success border border-dark border-1 px-5 py-2" style="font-size: 20px ;">Sign up</button>
+      </div>
+
+      <div class="col-sm-2 pb-3" style="margin-left: 45px; width: 60%; ">
+        <p class="h6" style="padding-bottom: 40px;"><a href="#" class="text-decoration-none">Create a page</a> for a celebrity, band and business.</p>
+      </div>
+
+  </form>
+</div>
+
+
+<!-- JavaScript Bundle with Popper -->
+<script src="https://cdn.jsdelivr.net/npm/bootstrap@5.2.0-beta1/dist/js/bootstrap.bundle.min.js" integrity="sha384-pprn3073KE6tl6bjs2QrFaJGz5/SUsLqktiwsUTF55Jfv3qYSDhgCecCxMW52nD2" crossorigin="anonymous"></script>
+</body>
+</html>
